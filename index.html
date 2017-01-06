@@ -2,14 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Oskars Dashboard!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center main-header">Dashboard</h1>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+              <h3 class="panel-heading">Current Weather</h3>
+              <p class="panel-body" id="weather"></p>
+            </div>            
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+              <h3 class="panel-heading">Instagram stats for <span class="ig-name"></span></h3>
+              <p class="panel-body" id="instagram-stats"></p>
+            </div>            
+          </div>
+      </div>
+
+    </div>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
   </body>
 
   <script>

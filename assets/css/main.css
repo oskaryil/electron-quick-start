@@ -1,0 +1,22 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 5px;
+}
+
+.main-header {
+  font-size: 2.5em;
+}
+
+.panel-heading {
+  font-size: 1.5em;
+}
+
+#weather {
+  font-size: 1.2em;
+
+}
+
+.ig-likes-per-post {
+  display: block;
+}
