@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/keepclone"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/arduino_projects"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/github-battle"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/react-router-tutorial/lessons/01-setting-up"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/react-router-tutorial/lessons/02-rendering-a-route"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/oskar/Dropbox/Websites/react-router-tutorial/lessons/04-nested-routes"
+		}
+	]
+}

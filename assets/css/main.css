@@ -20,3 +20,19 @@ html, body {
 .ig-likes-per-post {
   display: block;
 }
+
+.insta-post {
+  display: inline-block;
+  width: 16.66%;
+}
+
+.insta-post:not(:last-of-type) {
+  padding-right: 24px;
+}
+
+.ig-post-like-count {
+  display: block;
+}
+
+.insta-post:nth-child(6) {
+}

@@ -6,6 +6,8 @@ const weather = require('openweathermap');
 const instagramAnalytics = require('instagram-analytics');
 const cache = require('memory-cache');
 const cacheTime = 1000 * 300; // 300 sec
+const InstaFeed = require('instafeed.js');
+const moment = require('moment');
 
 weather.defaults = {
   units: 'metric',
@@ -24,10 +26,11 @@ weather.now({
 });
 
 $(function() {
-  get('oskaryil', function(data) {
+  get('fullstack_dev', function(data) {
     console.log(data);
     $(".ig-name").text("@" + data.username);
     $("#instagram-stats").html("Followers: <span class='ig-followers'>"+data.followers + "</span> <span class='ig-likes-per-post'>Likes per post: "+ Math.round(data.likesPerPost) +"</span>");
+    $(".description").text("Description: " + data.description);
   });
 });
 
@@ -48,3 +51,21 @@ function get(handle, completion) {
     });
   }
 }
+  // clientId: '70f50636cc57477aaa5f3fb61afee2e7'
+
+const feed = new InstaFeed({
+  get: 'user',
+  userId: '4312264050',
+  accessToken: '4312264050.1677ed0.186e37c622184003a9387314abffb006',
+  sortBy: 'most-liked',
+  template: '<div class="insta-post"><a class="instagram-post-link" href="{{link}}"><img src="{{image}}" /></a><p class="text-center ig-post-like-count"><i class="fa fa-heart"></i> {{likes}}</p><pre class="time-posted">{{model.created_time}}</pre><span class="post-time"></span></div>'
+});
+feed.run();
+
+const postTime = $(".time-posted").text();
+console.log(postTime);
+
+setTimeout(function() {
+  console.log(postTime);
+$(".post-time").text(moment.unix(parseInt(postTime)).format('MM/DD/YYYY hh:mm a'));
+}, 3000);

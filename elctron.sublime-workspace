@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backtg",
+				"background-repeat"
+			],
+			[
+				"dropw",
+				"dropdown-container"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"trasn",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"main",
+				"mainPanelHeight"
+			],
+			[
+				"carousel",
+				"carousel-example-generic"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"selected_items":
+		[
+			[
+				"snippet h",
+				"Snippet: html"
+			],
+			[
+				"snippet handle",
+				"Snippet: handlebars template"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"packagee",
+				"Package Control: Enable Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/news-system/controllers/handleBlogPost.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/views/news.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/assets/css/main.scss",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/views/layouts/layout.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/assets/js/app.js",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/public/assets/js/app.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/routes/index.js",
+		"/D/Users/Oskar/Downloads/host Files/upload/admin.php",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/js/handlebars.js",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/server.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/news-system/utils/db.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/layouts/layout.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/news.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/support.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/index.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/info.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/routes/blogHandler.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/package.json",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/package.json",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/db.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/index.html",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/assets/css/select2/select2.css",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/css/select2/select2.css",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/server.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/routes/support.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/routes/news.js",
+		"/D/Users/Oskar/Dropbox/Websites/justdev/server.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/index.html",
+		"/C/Users/Oskar/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Oskar/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/views/layouts/index.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/js/backup.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/backup.html",
+		"/D/Users/Oskar/Dropbox/Websites/justdev/routes/index.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/routes/index.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/routes/news.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/routes/support.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/assets/css/backup.css",
+		"/C/Users/Oskar/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/css/backup.css",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/js/app.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/index.html",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/server.js",
+		"/D/Users/Oskar/Dropbox/Websites/ivunys/public/assets/css/main.scss",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/public/assets/css/main.css",
+		"/D/Code/1-introducing-the-project/start/best-city-guide.png",
+		"/D/Code/4-column-layout-challenge/start/css/style.css",
+		"/D/Code/4-column-layout-challenge/start/index.html",
+		"/D/Code/1-introducing-the-project/start/index.html",
+		"/D/Code/1-introducing-the-project/start/css/style.css",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/public/index.html",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/public/assets/css/main.css",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/controllers/handleBlogPost.js",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/utils/connection.js",
+		"/E/www backup 2016-05-15/www/tournament/tournament/php/team.php",
+		"/E/www backup 2016-05-15/www/tournament/tournament/php/getTeam.php",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/controllers/getBlogPost.js",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/views/layouts/blog.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/views/home.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/views/layouts/main.handlebars",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/views/post.handlebars",
+		"/C/wamp/www/testmysql.php",
+		"/D/Users/Oskar/Dropbox/Websites/blog-system/utils/db.js",
+		"/D/Users/Oskar/Dropbox/Websites/Ivunys/todo.txt",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/analyticstracking.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/include.php",
+		"/D/Users/Oskar/Dropbox/Websites/socket-chat/package.json",
+		"/D/Users/Oskar/Dropbox/Websites/socket-chat/index.html",
+		"/C/wamp/www/portfolio/assets/css/main.scss",
+		"/C/wamp/www/portfolio/index.php",
+		"/C/wamp/www/portfolio/assets/php/include.php",
+		"/D/Users/Oskar/Desktop/assets/css/main.css",
+		"/D/Users/Oskar/Dropbox/Programmering/Projekt/portfolio/index.php",
+		"/D/Users/Oskar/Dropbox/Programmering/Projekt/portfolio/assets/index.html",
+		"/D/Users/Oskar/Desktop/assets/index.html",
+		"/C/wamp/www/pesto-master/po-setup.php",
+		"/C/wamp/www/pesto-master/libs/password.php",
+		"/C/wamp/www/pesto-master/includes/pesto.php",
+		"/C/wamp/www/pesto-master/includes/header.php",
+		"/C/wamp/www/pesto-master/includes/po-blog-system.php",
+		"/C/wamp/www/pesto-master/index.php",
+		"/C/wamp/www/pesto-master/includes/config.php",
+		"/C/wamp/www/pesto-master/includes/po-gen-config.php",
+		"/C/wamp/www/ivunys/todo.txt",
+		"/E/djTondra/index.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/submit_email.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/teams.json",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/app.js",
+		"/C/wamp/www/portfolio/assets/index.html",
+		"/C/wamp/www/portfolio/assets/css/main.css",
+		"/C/wamp/www/djTondra/assets/css/main.css",
+		"/C/wamp/www/djTondra/index.php",
+		"/C/wamp/www/djTondra/assets/css/animate.css",
+		"/C/wamp/www/ivunyslanding/assets/css/main.css",
+		"/C/wamp/www/ivunyslanding/assets/php/submit_email.php",
+		"/C/wamp/www/ivunys/index.php",
+		"/C/wamp/www/ivunyslanding/index.php",
+		"/E/tournament/tournament/php/functions.php",
+		"/E/tournament/tournament/admin.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/Oskar/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/tournament/tournament/php/functions.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/index.html",
+		"/F/ivunys/index.php",
+		"/C/wamp/www/ivunys/assets/js/app.js",
+		"/D/Users/Oskar/Dropbox/Websites/dj_tondra/index.html",
+		"/D/Users/Oskar/Dropbox/Websites/dj_tondra/menu content.txt",
+		"/C/wamp/www/djTondra/todo.txt",
+		"/D/Users/Oskar/Dropbox/Websites/pinguboyz/assets/php/mail.php",
+		"/C/Users/Oskar/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/Users/Oskar/Documents/Spigot server/server.properties",
+		"/D/Users/Oskar/Dropbox/Websites/phptut/index.php",
+		"/D/Users/Oskar/Dropbox/Websites/phptut/php.ini",
+		"/D/Users/Oskar/Dropbox/Websites/phptut/test.php",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/spice 2.html",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/stylesheet.css",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/spice.html",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/styles 2.css",
+		"/C/Users/Oskar/AppData/Local/Temp/fz3temp-1/styles.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"00B5E2",
+			"index.html",
+			"calc",
+			"wrap",
+			"container",
+			"500",
+			"<",
+			"2s",
+			".25",
+			"5x",
+			"2x",
+			"p-btn",
+			"btn",
+			">\n",
+			"pingu",
+			"ctrl+/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "elctron.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Code\\Treehouse.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

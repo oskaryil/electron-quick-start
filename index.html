@@ -5,6 +5,7 @@
     <title>Oskars Dashboard!</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
@@ -26,8 +27,20 @@
             <div class="panel panel-primary">
               <h3 class="panel-heading">Instagram stats for <span class="ig-name"></span></h3>
               <p class="panel-body" id="instagram-stats"></p>
+              <p class="description"></p>
             </div>            
           </div>
+          <div class="col-md-4">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          
+            <div class="panel panel-primary">
+              <h3 class="panel-heading">Instagram posts <span class="ig-name"></span></h3>
+              <div class="panel-body" id="instafeed"></div>
+            </div>
+        </div>
       </div>
 
     </div>
@@ -40,5 +53,6 @@
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
+    
   </script>
 </html>
